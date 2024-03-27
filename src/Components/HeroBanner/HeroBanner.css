@@ -1,0 +1,83 @@
+.hero_banner {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero_banner-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+    opacity: .6;
+    visibility: hidden;
+}
+
+.hero_banner-content {
+    position: absolute;
+    top: 35%;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 36rem;
+    z-index: 10;
+}
+.hero_banner-content h1{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.hero_banner-content h1 strong {
+    display: block;
+    color: rgb(190 18 60);
+    font-weight: 800;
+}
+
+.hero_banner-content p {
+    font-size: 1.25rem;
+    line-height: 1.625;
+    width: 100%;
+    max-width: 32rem;
+    margin-top: 1rem;
+}
+
+.hero_banner-btn {
+    width: 100%;
+    max-width: 32rem;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.hero_banner-btn a {
+    text-decoration: none;
+    color: rgb(225 29 72);
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: 0.75rem 3rem;
+    background-color: #fff;
+    border-radius: .25rem;
+}
+
+#hero_banner-search-btn {
+    background-color: rgb(225 29 72);
+    color: #fff;
+}
+
+#hero_banner-search-btn:hover {
+    background-color: rgb(190 18 60);
+}

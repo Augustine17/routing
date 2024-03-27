@@ -1,0 +1,56 @@
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mt-24 {
+    margin-top: 6rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.cardContainer{
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
